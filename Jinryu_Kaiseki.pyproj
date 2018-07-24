@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8b0b1a90-541c-44a2-8188-041f85236099}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>a4_hist.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="161111_1516_plot_east.png" />
+    <Content Include="161111_1516_plot_north.png" />
+    <Content Include="161111_1516_plot_south.png" />
+    <Content Include="161111_1516_plot_west.png" />
+    <Content Include="161111_1617_plot_east.png" />
+    <Content Include="161111_1617_plot_north.png" />
+    <Content Include="161111_1617_plot_south.png" />
+    <Content Include="161111_1617_plot_west.png" />
+    <Content Include="161111_1718_plot_east.png" />
+    <Content Include="161111_1718_plot_north.png" />
+    <Content Include="161111_1718_plot_south.png" />
+    <Content Include="161111_1718_plot_west.png" />
+    <Content Include="A4\0609\plot.png" />
+    <Content Include="plot10.png" />
+    <Content Include="plot11.png" />
+    <Content Include="plot3.png" />
+    <Content Include="plot4.png" />
+    <Content Include="plot5.png" />
+    <Content Include="plot6.png" />
+    <Content Include="plot7.png" />
+    <Content Include="plot8.png" />
+    <Content Include="plot9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="a4_hist.py" />
+    <Compile Include="a4_scatter.py" />
+    <Compile Include="akihabara_scatter.py" />
+    <Compile Include="aoyama_scatter.py" />
+    <Compile Include="csv_integration.py" />
+    <Compile Include="heat_pr.py" />
+    <Compile Include="lencon_gen.py" />
+    <Compile Include="line_count.py" />
+    <Compile Include="line_counter_071003.py" />
+    <Compile Include="scatter_osaka.py" />
+    <Compile Include="simple_integ.py" />
+    <Compile Include="uniq_id_extraction.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="A4\" />
+    <Folder Include="A4\0609" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
