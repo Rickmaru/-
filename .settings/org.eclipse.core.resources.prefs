@@ -5,6 +5,7 @@ encoding/akihabara_scatter.py=utf-8
 encoding/aoyama_scatter.py=utf-8
 encoding/csv_integration.py=utf-8
 encoding/heat_pr.py=utf-8
+encoding/jinryu_SequentiallyDetection_pers.py=utf-8
 encoding/lencon_gen.py=utf-8
 encoding/line_count.py=utf-8
 encoding/line_count_all.py=utf-8
